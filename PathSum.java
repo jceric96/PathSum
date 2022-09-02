@@ -24,7 +24,7 @@ public class PathSum {
         root.right.left.left = null;
         root.right.left.right = null;
         root.right.right.left = null;
-        root.right.right.right = new TreeNode(4);
+        root.right.right.right = new TreeNode(1);
 
         int targetSum = 22;
         System.out.println(tree.hasPathSum(root, targetSum));
